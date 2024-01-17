@@ -90,9 +90,13 @@ rm -r drinks
 ### Step 4
 cd Desktop/unit1-git-practice 
 git init
-
+git add .
+git commit -m 'first commit'
 
 ### Step 5
+git remote add origin https://github.com/maiyajanay/unit1-git-practice.git
+git branch -M main
+git push -u origin main
 
 
 ### Step 6
